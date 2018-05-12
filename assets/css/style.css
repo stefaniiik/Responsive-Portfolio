@@ -90,12 +90,15 @@ body {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
-}
-.bio {
     width: 70%;
     height: 70px;
     margin-bottom: 20px;
 }
+/* .bio {
+    width: 70%;
+    height: 70px;
+    margin-bottom: 20px;
+} */
 .container2 {
     width: 1024px;
     margin: 0 auto;
@@ -165,16 +168,127 @@ h4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-@media only screen and (max-width:640px) {
-    /* For mobile phones */
-.about {
-    width: 100%;
-    height: 750px;
+/* Home page */
+@media only screen and (max-width:980px){
+    /* For desktops */
+    .box {
+        width:100%;
+        position: static;
     }
-.container {
+    .container {
+        width: 100%;
+        height: 750px;
+    }
+    .about {
     width: 100%;
-}
+    }
 .bio {
     width: 100%;
+}
+}
+@media only screen and (max-width:640px) {
+    /* For mobile phones */
+    .box {
+        width:100%; 
+        position: static; 
+    }
+    .nav {
+        position: static;
+    }
+    .container {
+        width: 100%;
+        height: 750px;
+    }
+    .about {
+    width: 100%;
+    }
+.bio {
+    width: 100%;
+} 
+}
+@media only screen and (max-width:768px) {
+    /* For tablets */
+    .box {
+        width:100%;
+        position: static;
+        }
+    .container {
+        width: 100%;
+        height: 750px;
+    }
+    .about {
+    width: 100%;
+    }
+.bio {
+    width: 100%;
+}
+}
+/* Contact Page */
+@media only screen and (max-width:980px){
+    /* For desktops */
+    .box {
+        width:100%;
+    }
+    .container2, #form {
+        width: 100%;
+        height:100%;;
+}
+}
+@media only screen and (max-width:640px) {
+    /* For mobile phones */
+    .box {
+        width:100%;    
+    }
+    .nav {
+        position: static;
+    }
+    .container2, #form {
+        width: 100%;
+        height: 100%;
+}
+
+}
+@media only screen and (max-width:768px) {
+    /* For tablets */
+    .box {
+        width:100%; 
+       }
+    .container2, #form {
+        width: 100%;
+        height: 100%;
+}
+}
+/* Portfolio Page */
+@media only screen and (max-width:980px){
+    /* For desktops */
+    .box {
+        width:100%;
+    }
+    .container2, #form {
+        width: 100%;
+        height:800px;;
+}
+}
+@media only screen and (max-width:640px) {
+    /* For mobile phones */
+    .box {
+        width:100%;    
+    }
+    .nav {
+        position: static;
+    }
+    .container2, #form {
+        width: 100%;
+        height: 800px;
+}
+}
+@media only screen and (max-width:768px) {
+    /* For tablets */
+    .box {
+        width:100%; 
+       }
+    .container2, #form {
+        width: 100%;
+        height: 800px;
 }
 }
